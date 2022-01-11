@@ -1,5 +1,5 @@
-{
+[{
   "name": "Hello World",
   "price": 45,
-  "img": "./img/coctail1.jpg"
-}
+  "img": "./assets/cocktail1.jpg"
+}]

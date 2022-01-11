@@ -2,4 +2,18 @@
 <div *ngFor="let cocktail of cocktails">
          {{cocktail}}
 </div>
+<table class="table table-bordered">
+  <tr>
+    <th>name</th>
+    <th>Price</th>
+    <th>Img</th>
+
+  </tr>
+  <tr *ngFor="let cocktail of cocktails">
+    <td>{{ cocktail.name }}</td>
+    <td>{{ cocktail.price }}</td>
+    <td> <img src="{{ cocktail.img}}"></td>
+
+  </tr>
+</table>
 

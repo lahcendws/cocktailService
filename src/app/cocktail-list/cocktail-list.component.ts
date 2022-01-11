@@ -9,7 +9,7 @@ import { Cocktail } from '../cocktail';
   providers:  [ CocktailService ]
 })
 export class CocktailListComponent implements OnInit {
-  public cocktails: any;
+  public cocktails: Cocktail[] | undefined;
   private service:CocktailService;
   constructor(private param_service: CocktailService) {
     this.service  =  param_service;

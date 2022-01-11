@@ -7,7 +7,7 @@ import {map, Observable} from "rxjs";
 })
 export  class  CocktailService {
     public cocktails=[];
-  private url: string = './src/asset/data.json';
+  private url: string = './assets/data.json';
   constructor(private httpClient: HttpClient) {
 
   }
